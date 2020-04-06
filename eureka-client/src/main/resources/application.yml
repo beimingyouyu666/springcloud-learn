@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: eureka-client
+
+eureka:
+  client:
+    availability-zones:
+      default-Zone: http://eureka-server1:8761/eureka,http://eureka-server2:8762/eureka,http://eureka-server3:8763/eureka
+# \u8BBE\u7F6E\u5BA2\u6237\u7AEF\u5728\u6CE8\u518C\u4E2D\u5FC3\u7684\u8BBF\u95EE\u5730\u5740
+#  instance:
+#    hostname: eureka-clinet
+
+server:
+  port: 8771
