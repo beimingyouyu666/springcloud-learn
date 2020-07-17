@@ -3,7 +3,7 @@ package com.yangk.product.common;
 import lombok.Data;
 
 /**
- * @Description TODO
+ * @Description
  * @Author yangkun
  * @Date 2020/4/5
  * @Version 1.0
