@@ -1,0 +1,26 @@
+spring:
+  application:
+    name: product
+  cloud:
+    #    解决配置了git的webhooks但是配置未实时刷新的问题
+    #    参考：https://blog.csdn.net/qq_16828223/article/details/90752082
+    bus:
+      id: ${spring.application.name}:${spring.cloud.config.profile}:${random.value}
+#    指定使用远程配置中心的配置
+    #    enabled: true --打开开关；service-id: config -- 配置中心的服务名；profile: test -- 指定profile
+    config:
+      discovery:
+        enabled: true
+        service-id: config
+      profile: test
+    #  整合rabbitmq实现动态刷新配置
+  rabbitmq:
+      addresses: 114.215.147.110
+      port: 5672
+      username: admin
+      password: admin
+
+eureka:
+  client:
+    availability-zones:
+      default-Zone: http://localhost:8761/eureka
