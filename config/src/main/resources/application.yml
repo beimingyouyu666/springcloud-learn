@@ -1,0 +1,36 @@
+spring:
+  application:
+    name: config
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/beimingyouyu666/springcloud-learn-config.git
+          username: beimingyouyu666
+          password: yk.80231314
+          basedir: D:/learn/codes-mine/springcloud-learn/config/basedir
+  rabbitmq:
+    addresses: 114.215.147.110
+    port: 5672
+    username: admin
+    password: admin
+server:
+  port: 8080
+eureka:
+  client:
+    availability-zones:
+      defaultZone: http://localhost:8761/eureka
+
+#logging:
+#  level:
+#    web: debug
+logging:
+  level:
+    org.springframework.cloud.bus: debug
+
+#\u5C06 bus-refresh \u63A5\u53E3\u66B4\u9732\u51FA\u6765\uFF0C\u9ED8\u8BA4\u53EA\u66B4\u9732 health\u548Cinfo \u63A5\u53E3
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
