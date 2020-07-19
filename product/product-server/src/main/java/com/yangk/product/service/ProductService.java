@@ -1,7 +1,7 @@
 package com.yangk.product.service;
 
+import com.yangk.product.common.DecreaseStockInput;
 import com.yangk.product.domain.dos.ProductInfo;
-import com.yangk.product.domain.dto.CartDTO;
 
 import java.util.List;
 
@@ -26,5 +26,5 @@ public interface ProductService {
      * 扣库存
      * @param decreaseStockInputList
      */
-    void decreaseStock(List<CartDTO> decreaseStockInputList);
+    void decreaseStock(List<DecreaseStockInput> decreaseStockInputList);
 }

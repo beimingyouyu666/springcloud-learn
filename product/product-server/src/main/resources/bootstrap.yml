@@ -24,3 +24,7 @@ eureka:
   client:
     availability-zones:
       default-Zone: http://localhost:8761/eureka
+
+logging:
+  level:
+    web: debug

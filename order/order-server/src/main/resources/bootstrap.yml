@@ -19,6 +19,10 @@ spring:
     port: 5672
     username: admin
     password: admin
+  redis:
+    cluster:
+      nodes: 114.215.147.110:7000,114.215.147.110:7001,114.215.147.110:7002
+    timeout: 5000ms
 #指定注册中心的地址
 eureka:
   client:

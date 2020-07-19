@@ -1,8 +1,8 @@
 package com.yangk.product.controller;
 
+import com.yangk.product.common.DecreaseStockInput;
 import com.yangk.product.domain.dos.ProductCategory;
 import com.yangk.product.domain.dos.ProductInfo;
-import com.yangk.product.domain.dto.CartDTO;
 import com.yangk.product.domain.vo.ProductInfoVO;
 import com.yangk.product.domain.vo.ProductVO;
 import com.yangk.product.domain.vo.ResultVO;
@@ -88,7 +88,7 @@ public class ProductController {
     }
 
     @PostMapping("/decreaseStock")
-    public void decreaseStock(@RequestBody List<CartDTO> decreaseStockInputList) {
+    public void decreaseStock(@RequestBody List<DecreaseStockInput> decreaseStockInputList) {
         productService.decreaseStock(decreaseStockInputList);
     }
 }
