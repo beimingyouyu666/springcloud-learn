@@ -28,3 +28,4 @@ eureka:
 logging:
   level:
     web: debug
+
