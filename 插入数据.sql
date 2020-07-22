@@ -14,3 +14,9 @@ INSERT INTO `product_category`(`category_id`, `category_name`, `category_type`, 
 order_master
 
 INSERT INTO `order_master`(`order_id`, `buyer_name`, `buyer_phone`, `buyer_address`, `buyer_openid`, `order_amount`, `order_status`, `pay_status`, `create_time`, `update_time`) VALUES ('1', 'yangk', '186', '186', '666', 0.00, 0, 0, '2020-04-06 06:52:18', '2020-04-06 06:52:18');
+
+
+-- user_info
+
+INSERT INTO `user_info`(`id`, `username`, `password`, `openid`, `role`) VALUES ('1', 'abc', 'abc', 'abc', 1);
+INSERT INTO `user_info`(`id`, `username`, `password`, `openid`, `role`) VALUES ('2', 'xyz', 'xyz', 'xyz', 2);

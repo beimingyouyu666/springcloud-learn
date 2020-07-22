@@ -19,6 +19,13 @@ spring:
     port: 5672
     username: admin
     password: admin
+  redis:
+    cluster:
+      #      nodes: 114.215.147.110:7001,114.215.147.110:7002,114.215.147.110:7003
+      #      nodes: 114.215.147.110:7001
+      nodes: 10.104.6.131:7000
+    timeout: 5000ms
+
 
 eureka:
   client:
@@ -26,6 +33,7 @@ eureka:
       default-Zone: http://localhost:8761/eureka
 server:
   port: 8774
+
 
 management:
   endpoints:
@@ -36,3 +44,7 @@ management:
 ribbon:
   ReadTimeout: 10000
   SocketTimeout: 60000
+
+#  敏感头设置，允许cookie传递,什么都不设置代表不过滤任何信息
+zuul:
+  sensitive-headers:

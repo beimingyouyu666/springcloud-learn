@@ -18,7 +18,7 @@ import static org.springframework.cloud.netflix.zuul.filters.support.FilterConst
  * @Date 2020/7/22
  * @Version 1.0
  */
-@Component
+//@Component
 public class TokenFilter extends ZuulFilter {
     @Override
     public String filterType() {

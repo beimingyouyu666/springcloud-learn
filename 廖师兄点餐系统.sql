@@ -66,3 +66,13 @@ create table `seller_info` (
     `update_time` timestamp not null default current_timestamp on update current_timestamp comment '修改时间',
     primary key (`id`)
 ) comment '卖家信息表';
+
+-- 用户信息表，买家和卖家
+CREATE TABLE `user_info` (
+  `id` varchar(32) NOT NULL,
+  `username` varchar(32) NOT NULL,
+  `password` varchar(32) NOT NULL,
+  `openid` varchar(64) NOT NULL COMMENT '微信openid',
+  `role` tinyint(1) NOT NULL COMMENT '用户权限，1买家，2卖家',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='用户信息表';
