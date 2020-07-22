@@ -48,3 +48,12 @@ ribbon:
 #  敏感头设置，允许cookie传递,什么都不设置代表不过滤任何信息
 zuul:
   sensitive-headers:
+
+# 超时设置
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 5000

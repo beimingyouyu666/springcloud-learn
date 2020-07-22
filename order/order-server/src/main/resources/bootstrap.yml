@@ -29,10 +29,31 @@ eureka:
     service-url:
       defaultZone: http://localhost:8761/eureka
 
-#logging:
-#  level:
-#    web: debug
 #指定打印日志级别，方便排查问题
 logging:
   level:
+    web: debug
     org.springframework.cloud.bus: debug
+
+hystrix:
+  command:
+   default:
+      execution:
+        isolation:
+          thread:
+#            设置超时时间
+#            todo 这里不生效，设置ribbon超时5s也没用，应该还有其他组件resttemplt超时时间设置，访问2s就超时了
+            timeoutInMilliseconds: 5000
+      circuitBreaker:
+#        打开断路器
+        enabled: true
+#        请求数达到后才计算
+        requestVolumeThreshold: 10
+#        休眠时间窗
+        sleepWindowInMilliseconds: 10000
+#        错误率
+        errorThresholdPercentage: 60
+
+#ribbon:
+#  ReadTimeout: 5000
+#  SocketTimeout: 5000
