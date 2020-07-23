@@ -54,6 +54,10 @@ hystrix:
 #        错误率
         errorThresholdPercentage: 60
 
+feign:
+  hystrix:
+    enabled: true
+
 #ribbon:
 #  ReadTimeout: 5000
 #  SocketTimeout: 5000

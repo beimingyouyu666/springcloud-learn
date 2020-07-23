@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="85cb9379-f548-48b8-aa13-2ac11474754c" name="Default Changelist" comment="" />
+    <list default="true" id="85cb9379-f548-48b8-aa13-2ac11474754c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_15_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_freemarker_freemarker_2_3_28.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_freemarker_2_1_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_hystrix_dashboard_2_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_d3js_3_4_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_jquery_2_1_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/order-server/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/order/order-server/src/main/resources/bootstrap.yml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/product/product-server/target/" />
     <ignored path="$PROJECT_DIR$/product/target/" />
     <ignored path="$PROJECT_DIR$/product/product-client/target/" />
@@ -52,22 +61,22 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="2" />
-          <entry key="java" value="26" />
+          <entry key="class" value="3" />
+          <entry key="java" value="28" />
           <entry key="properties" value="1" />
           <entry key="sql" value="1" />
           <entry key="xml" value="8" />
-          <entry key="yml" value="5" />
+          <entry key="yml" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="2" />
-          <entry key="JAVA" value="26" />
+          <entry key="CLASS" value="3" />
+          <entry key="JAVA" value="28" />
           <entry key="Properties" value="1" />
           <entry key="SQL" value="1" />
           <entry key="XML" value="8" />
-          <entry key="YAML" value="5" />
+          <entry key="YAML" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -75,7 +84,7 @@
           <entry key="java" value="257" />
           <entry key="sql" value="35" />
           <entry key="xml" value="10" />
-          <entry key="yml" value="37" />
+          <entry key="yml" value="49" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -83,7 +92,7 @@
           <entry key="JAVA" value="257" />
           <entry key="SQL" value="35" />
           <entry key="XML" value="10" />
-          <entry key="YAML" value="37" />
+          <entry key="YAML" value="49" />
         </counts>
       </usages-collector>
     </session>
@@ -94,7 +103,7 @@
         <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/yangk/apigateway/filter/TokenFilter.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="733">
-              <caret line="48" column="1" lean-forward="true" selection-start-line="20" selection-start-column="2" selection-end-line="48" selection-end-column="1" />
+              <caret line="48" column="1" selection-start-line="20" selection-start-column="2" selection-end-line="48" selection-end-column="1" />
               <folding>
                 <element signature="e#929#930#0" expanded="true" />
                 <element signature="e#956#957#0" expanded="true" />
@@ -107,7 +116,7 @@
         <entry file="file://$PROJECT_DIR$/api-gateway/src/main/resources/bootstrap.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="588">
-              <caret line="47" selection-start-line="47" selection-end-line="49" selection-end-column="20" />
+              <caret line="47" selection-start-line="47" selection-end-line="58" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -116,7 +125,7 @@
         <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/yangk/apigateway/filter/BuyerFilter.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="348">
-              <caret line="25" column="7" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+              <caret line="25" column="7" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -125,7 +134,7 @@
         <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/yangk/apigateway/filter/SellerFilter.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="733">
-              <caret line="70" column="1" lean-forward="true" selection-start-line="26" selection-end-line="70" selection-end-column="1" />
+              <caret line="70" column="1" selection-start-line="26" selection-end-line="70" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -141,6 +150,15 @@
             </state>
           </provider>
           <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/order/order-server/src/main/resources/bootstrap.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="393">
+              <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -181,7 +199,7 @@
         <entry file="file://$PROJECT_DIR$/order/order-server/src/main/java/com/yangk/order/controller/OrderController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="167">
-              <caret line="70" column="53" lean-forward="true" selection-start-line="70" selection-start-column="53" selection-end-line="70" selection-end-column="53" />
+              <caret line="70" column="53" selection-start-line="70" selection-start-column="53" selection-end-line="70" selection-end-column="53" />
             </state>
           </provider>
         </entry>
@@ -207,20 +225,38 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/yangk/apigateway/filter/RateLimitFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="8">
-              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+            <state relative-caret-position="66">
+              <caret line="20" column="68" selection-start-line="20" selection-start-column="68" selection-end-line="20" selection-end-column="68" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/yangk/apigateway/config/CorsConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="757">
-              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+            <state relative-caret-position="501">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/yangk/apigateway/config/ZuulConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="319">
+              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://D:/tools/mvnRepository/com/google/guava/guava/16.0/guava-16.0-sources.jar!/com/google/common/util/concurrent/RateLimiter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="443">
+              <caret line="211" column="33" selection-start-line="211" selection-start-column="33" selection-end-line="211" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -273,6 +309,7 @@
         <option value="$PROJECT_DIR$/api-gateway/src/main/java/com/yangk/apigateway/filter/SellerFilter.java" />
         <option value="$PROJECT_DIR$/order/order-server/src/main/java/com/yangk/order/service/impl/OrderServiceImpl.java" />
         <option value="$PROJECT_DIR$/api-gateway/src/main/java/com/yangk/apigateway/filter/BuyerFilter.java" />
+        <option value="$PROJECT_DIR$/order/order-server/src/main/resources/bootstrap.yml" />
       </list>
     </option>
   </component>
@@ -550,7 +587,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1595406913958" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1595493444635" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/user" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -901,13 +938,6 @@
       </provider>
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/order/order-server/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="21" selection-start-line="21" selection-end-line="24" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/api-gateway/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="522">
@@ -958,14 +988,14 @@
     <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/yangk/apigateway/filter/BuyerFilter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="348">
-          <caret line="25" column="7" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+          <caret line="25" column="7" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/order/order-server/src/main/java/com/yangk/order/controller/OrderController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="167">
-          <caret line="70" column="53" lean-forward="true" selection-start-line="70" selection-start-column="53" selection-end-line="70" selection-end-column="53" />
+          <caret line="70" column="53" selection-start-line="70" selection-start-column="53" selection-end-line="70" selection-end-column="53" />
         </state>
       </provider>
     </entry>
@@ -976,17 +1006,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/yangk/apigateway/filter/RateLimitFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/yangk/apigateway/filter/TokenFilter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="733">
-          <caret line="48" column="1" lean-forward="true" selection-start-line="20" selection-start-column="2" selection-end-line="48" selection-end-column="1" />
+          <caret line="48" column="1" selection-start-line="20" selection-start-column="2" selection-end-line="48" selection-end-column="1" />
           <folding>
             <element signature="e#929#930#0" expanded="true" />
             <element signature="e#956#957#0" expanded="true" />
@@ -997,7 +1020,7 @@
     <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/yangk/apigateway/filter/SellerFilter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="733">
-          <caret line="70" column="1" lean-forward="true" selection-start-line="26" selection-end-line="70" selection-end-column="1" />
+          <caret line="70" column="1" selection-start-line="26" selection-end-line="70" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1007,17 +1030,52 @@
     <entry file="file://$PROJECT_DIR$/api-gateway/src/main/resources/bootstrap.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="588">
-          <caret line="47" selection-start-line="47" selection-end-line="49" selection-end-column="20" />
+          <caret line="47" selection-start-line="47" selection-end-line="58" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/yangk/apigateway/config/ZuulConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/yangk/apigateway/config/CorsConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="757">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        <state relative-caret-position="501">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/yangk/apigateway/filter/RateLimitFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="20" column="68" selection-start-line="20" selection-start-column="68" selection-end-line="20" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/tools/mvnRepository/com/google/guava/guava/16.0/guava-16.0.jar!/com/google/common/util/concurrent/RateLimiter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="25" column="30" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/tools/mvnRepository/com/google/guava/guava/16.0/guava-16.0-sources.jar!/com/google/common/util/concurrent/RateLimiter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="443">
+          <caret line="211" column="33" selection-start-line="211" selection-start-column="33" selection-end-line="211" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order/order-server/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
         </state>
       </provider>
     </entry>
