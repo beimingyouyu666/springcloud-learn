@@ -23,6 +23,13 @@ spring:
     cluster:
       nodes: 114.215.147.110:7000,114.215.147.110:7001,114.215.147.110:7002
     timeout: 5000ms
+  zipkin:
+    base-url: http://127.0.0.1:9411
+    sender:
+      type: web
+  sleuth:
+    sampler:
+      probability: 1
 #指定注册中心的地址
 eureka:
   client:
@@ -42,8 +49,8 @@ hystrix:
         isolation:
           thread:
 #            设置超时时间
-#            todo 这里不生效，设置ribbon超时5s也没用，应该还有其他组件resttemplt超时时间设置，访问2s就超时了
-            timeoutInMilliseconds: 5000
+#            todo 这里不生效，设置ribbon超时10s也没用，应该还有其他组件resttemplt超时时间设置，访问2s就超时了
+            timeoutInMilliseconds: 10000
       circuitBreaker:
 #        打开断路器
         enabled: true

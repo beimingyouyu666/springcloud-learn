@@ -19,6 +19,15 @@ spring:
       port: 5672
       username: admin
       password: admin
+  zipkin:
+#    zipkin的服务地址
+    base-url: http://127.0.0.1:9411
+    sender:
+      type: web
+  sleuth:
+    sampler:
+#      发送比率 100%发送
+      probability: 1
 
 eureka:
   client:
@@ -28,4 +37,3 @@ eureka:
 logging:
   level:
     web: debug
-

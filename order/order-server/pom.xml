@@ -107,6 +107,12 @@
             <artifactId>spring-cloud-netflix-hystrix-dashboard</artifactId>
         </dependency>
 
+        <!--包含sleuth和zipkin-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-zipkin</artifactId>
+        </dependency>
+
 
     </dependencies>
 
